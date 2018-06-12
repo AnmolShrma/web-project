@@ -81,11 +81,15 @@ li a:hover {
 .nav{
 	padding: 20px 20px;
 }
+
+.icon {
+  display: none;
+}
 .nav-link-center-align{
 
 }
 
-.contact-align-right{
+.nav-align-right{
 	float: right;
 }
 .footer{
@@ -108,4 +112,17 @@ li a:hover {
 	transform: scaleX(-1);
 	filter: FlipH;
 	-ms-filter: “FlipH”;
+}
+
+.profile-image{
+	border-radius: 50%;
+	max-width: 10%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-li-home{
+
 }

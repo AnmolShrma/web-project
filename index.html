@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Porfolio - Anmol Sharma</title>
   </head>
   <body>
@@ -11,14 +13,17 @@
         <ul>
           <li class="nav-li-logo" ><a href="#home">LOGO</a></li>
           <li class="nav-li-home"><a href="#home">Home</a></li>
-          <li class="nav-li-portfolio"><a href="#portfolio">Portfolio</a></li>
-          <li class="nav-li-contact contact-align-right"><a href="#contact">Contact</a></li>
+          <li class="nav-li-portfolio nav-align-right"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-li-contact nav-align-right"><a href="#contact">Contact</a></li>
+          <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a></li>
         </ul>
       </nav>
     </header>
     <section class="about-me-section">
-      <div class="about-me-image">
-        <img >
+      <div class="about-me-div">
+        <img class="profile-image" src="/home/dev/web-project/assets/images/cool.jpeg" alt="profile image">
       </div>
       <div class="about-me-text"></div>
     </section>
@@ -27,5 +32,6 @@
         <small><span class="copyright-reversed-footer">&copy;</span> All rights reversed</small>
       </div>
     </footer>
+    <script src="script.js">
   </body>
 </html>
