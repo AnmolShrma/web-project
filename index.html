@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Porfolio - Anmol Sharma</title>
@@ -10,28 +10,38 @@
   <body>
     <header>
       <nav class="nav">
-        <ul>
-          <li class="nav-li-logo" ><a href="#home">LOGO</a></li>
-          <li class="nav-li-home"><a href="#home">Home</a></li>
-          <li class="nav-li-portfolio nav-align-right"><a href="#portfolio">Portfolio</a></li>
-          <li class="nav-li-contact nav-align-right"><a href="#contact">Contact</a></li>
-          <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a></li>
+        <ul class="nav-links">
+          <li class="nav-li-logo" ><a class="nav-link-style" href="#home">Logo</a></li>
+          <li class="nav-li-home"><a class="nav-link-style" href="#home">Home</a></li>
+          <li class="nav-li-portfolio"><a class="nav-link-style" href="#portfolio">Portfolio</a></li>
+          <li class="nav-li-contact"><a class="nav-link-style" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <section class="about-me-section">
-      <div class="about-me-div">
-        <img class="profile-image" src="/home/dev/web-project/assets/images/cool.jpeg" alt="profile image">
+      <div class="about-me-text-div">Hello Guys!!!  I am Anmol Sharma, professionally a full stack developer and sarcastically a pixel thrower. ;-) Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </div>
+      <div class="about-me-image-div">
+        <img class="profile-image" src="/home/dev/web-project/assets/images/cool.jpeg"  alt="profile image">
       </div>
       <div class="about-me-text"></div>
     </section>
+
+    <section class="portfolio-section">
+      <div class="portfolio-1"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port1.jpeg" alt="port1"></div>
+      <div class="portfolio-2"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port2.jpeg" alt="port2"></div>
+      <div class="portfolio-3"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port3.jpeg" alt="port3"></div>
+      <div class="portfolio-4"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port4.jpeg" alt="port4"></div>
+      <div class="portfolio-5"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port5.jpeg" alt="port5"></div>
+      <div class="portfolio-6"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port6.jpeg" alt="port6"></div>
+      <div class="portfolio-7"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port7.jpeg" alt="port7"></div>
+      <div class="portfolio-8"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port8.jpeg" alt="port8"></div>
+      <div class="portfolio-9"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port9.jpeg" alt="port9"></div>
+    </section>
+
     <footer>
       <div class="footer">
         <small><span class="copyright-reversed-footer">&copy;</span> All rights reversed</small>
       </div>
     </footer>
-    <script src="script.js">
   </body>
 </html>

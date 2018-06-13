@@ -63,44 +63,58 @@ ul {
     overflow: hidden;
 }
 
-li {
-    float: left;
-}
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 5px;
     text-decoration: none;
-}
-li a:hover {
+	}
+	li a:hover {
     text-decoration-line: underline;
 }
 
+.nav-link-style{
+	font-weight: bold;
+	font-variant: small-caps;
+}
 .nav{
 	padding: 20px 20px;
-}
-
-.icon {
-  display: none;
-}
-.nav-link-center-align{
 
 }
 
-.nav-align-right{
-	float: right;
+.nav-links{
+	display: flex;
 }
+
+.nav-li-logo{
+	flex: 4;
+}
+
+.nav-li-home{
+ 	flex: 1;
+}
+
+.nav-li-portfolio{
+	flex: 1;
+}
+
+.nav-li-contact{
+	flex: 4;
+}
+
+
 .footer{
 	background-color: white;
 	color: black;
 	padding: 40px 0px;
 	text-align: center;
-	position: fixed;
+	position: static;
 	bottom: 0;
 	width: 100%;
 }
+
 
 .copyright-reversed-footer {
 	display: inline-block;
@@ -116,13 +130,65 @@ li a:hover {
 
 .profile-image{
 	border-radius: 50%;
-	max-width: 10%;
+	max-width: 50%;
 	height: auto;
 	display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.nav-li-home{
+.about-me-section{
+	display: flex;
+	align-items: center;
+	padding: 30px 30px;
+	margin: 50px;
+}
 
+.about-me-text-div{
+	padding: 0px 30px;
+	margin: 0px 0px 0px 50px;
+	text-align: justify;
+	color: white;
+	flex: 2;
+}
+
+.about-me-image-div{
+	flex: 1;
+}
+
+.portfolio-section{
+	background: #ff9900;
+	display: grid;
+	padding: 2em;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px,auto);
+	justify-items: center;
+
+	grid-gap: 1em;
+}
+
+.portfolio-section > div{
+	padding: 1em;
+	margin: 0;
+}
+
+.portfolio-image-properties{
+		background: #cc7a00;
+    border-radius: 8px;
+    padding: 5px;
+		max-width: 100%;
+		height: auto;
+
+}
+
+.portfolio-image-hover:hover {
+    box-shadow: 0 0 .5em .5em #b36b00;
+		opacity: .85;
+}
+
+
+@media(max-width:768px){
+	.nav-link-style{
+		font-size: 2vw;
+	}
 }
