@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/stylesheets/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Porfolio - Anmol Sharma</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+  <title>Porfolio - Anmol Sharma</title>
+</head>
+
+<body>
+  <div class="main">
     <header>
-      <nav class="nav">
+      <nav class="nav universal-padding">
         <ul class="nav-links">
-          <li class="nav-li-logo" ><a class="nav-link-style" href="#home">Logo</a></li>
-          <li class="nav-li-home"><a class="nav-link-style" href="#home">Home</a></li>
+          <li class="nav-li-logo"><a class="nav-link-style" href="#home">Logo</a></li>
+          <li class="nav-li-home"><a class="nav-link-style" href="#home"><i class="fas fa-home"></i></a></li>
           <li class="nav-li-portfolio"><a class="nav-link-style" href="#portfolio">Portfolio</a></li>
           <li class="nav-li-contact"><a class="nav-link-style" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section class="about-me-section">
-      <div class="about-me-text-div">Hello Guys!!!  I am Anmol Sharma, professionally a full stack developer and sarcastically a pixel thrower. ;-) Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </div>
-      <div class="about-me-image-div">
-        <img class="profile-image" src="/home/dev/web-project/assets/images/cool.jpeg"  alt="profile image">
+    <section id="home" class="about-me-section universal-padding">
+      <div class="about-me-text-div about-me-text-style universal-padding">Hello Guys!!! I am Anmol Sharma, professionally a full stack developer and sarcastically a pixel thrower. ;-) Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </div>
+      <div class="about-me-image-div universal-padding">
+        <img class="profile-image" src="/home/dev/web-project/assets/images/cool.jpeg" alt="profile image">
       </div>
       <div class="about-me-text"></div>
     </section>
 
-    <section class="portfolio-section">
+    <section id="portfolio" class="portfolio-section">
       <div class="portfolio-1"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port1.jpeg" alt="port1"></div>
       <div class="portfolio-2"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port2.jpeg" alt="port2"></div>
       <div class="portfolio-3"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port3.jpeg" alt="port3"></div>
@@ -38,10 +44,27 @@
       <div class="portfolio-9"><img class="portfolio-image-properties portfolio-image-hover" src="/home/dev/web-project/assets/images/port9.jpeg" alt="port9"></div>
     </section>
 
-    <footer>
-      <div class="footer">
+    <section id="contact" class="contact-section">
+      <div class="mail">
+        <i class="fas fa-envelope contact-item-style"></i>
+      </div>
+      <div class="facebook">
+        <i class="fab fa-facebook-square contact-item-style"></i>
+      </div>
+      <div class="twitter">
+        <i class="fab fa-twitter contact-item-style"></i>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
         <small><span class="copyright-reversed-footer">&copy;</span> All rights reversed</small>
       </div>
+      <div class="footer-style">
+        <small>Created with <i class="fas fa-coffee"></i> and <i class="fas fa-music"></i></small>
+      </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
